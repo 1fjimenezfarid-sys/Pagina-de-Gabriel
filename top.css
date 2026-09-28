@@ -65,19 +65,22 @@
     cursor: not-allowed;
 }
 .topo{
-    font-size: 25px;
+     font-size: 18px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-    max-width: 1200px;
+    gap: 15x;
+    max-width: 100%;
     margin: 20px auto;
-    padding: 15px;
+    padding: 20px;
     background-color: chocolate;
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 *{
     text-align: center;
+     box-sizing: border-box;
 }
 .oyin{
     color: rgb(0, 80, 252);
@@ -109,70 +112,81 @@
     overflow-x: auto;
 }
 .ima{
-    width: 500px;
+   max-width: 100%;
+   width: auto;
+   height: auto;
+   display: block;
+   margin: 0 auto;
 
 }
 .topo1{
-     font-size: 25px;
+     font-size: 18px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-    max-width: 1000px;
+    gap: 15x;
+    max-width: 100%;
     margin: 20px auto;
-    padding: 15px;
+    padding: 20px;
     background-color: rgb(45, 210, 30);
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 .topo2{
-     font-size: 25px;
+     font-size: 18px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-    max-width: 1000px;
+    gap: 15x;
+    max-width: 100%;
     margin: 20px auto;
-    padding: 15px;
-    background-color: rgb(149, 12, 177);
+    padding: 20px;
+    background-color: rgb(144, 30, 210);
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 .topo3{
-     font-size: 25px;
+     font-size: 18px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-    max-width: 1000px;
+    gap: 15x;
+    max-width: 100%;
     margin: 20px auto;
-    padding: 15px;
-    background-color: rgb(177, 18, 12);
+    padding: 20px;
+    background-color: rgb(168, 15, 15);
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 .topo4{
-    font-size: 25px;
+     font-size: 18px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-    max-width: 1000px;
+    gap: 15x;
+    max-width: 100%;
     margin: 20px auto;
-    padding: 15px;
-    background-color: rgb(177, 12, 127);
+    padding: 20px;
+    background-color: rgb(210, 30, 180);
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 .topo5{
-    font-size: 25px;
+     font-size: 18px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-    max-width: 1000px;
+    gap: 15x;
+    max-width: 100%;
     margin: 20px auto;
-    padding: 15px;
-    background-color: rgb(12, 56, 177);
+    padding: 20px;
+    background-color: rgb(30, 33, 210);
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-}
-*{
     box-sizing: border-box;
 }
 @media (max-width:600px){
